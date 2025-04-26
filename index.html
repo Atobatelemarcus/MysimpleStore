@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NXC689KC');</script>
+<!-- End Google Tag Manager -->
+  <!-- Basic Meta Tags -->
+<title>LeTobxx Men's Place | Shop Premium Men's Wear, Shoes & Watches</title>
+<meta name="description" content="Discover premium men's fashion at LeTobxx Men's Place. Shop stylish men's clothing, quality shoes, and classic watches at unbeatable prices with fast delivery.">
+<meta name="keywords" content="men's fashion, men's clothing, men's shoes, men's watches, stylish menswear, premium men's wear, affordable men's fashion, LeTobxx Men's Place">
+<meta name="Atobatele marcus" content="LeTobxx Men's Place">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:title" content="LeTobxx Men's Place | Premium Men's Wear, Shoes & Watches">
+<meta property="og:description" content="Shop the best collection of men's clothing, shoes, and watches at LeTobxx Men's Place. Premium quality, stylish designs, and fast shipping.">
+<meta property="og:image" content="https://yourdomain.com/path-to-your-banner-or-logo.jpg">
+<meta property="og:url" content="https://yourdomain.com">
+<meta property="og:type" content="website">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="LeTobxx Men's Place | Premium Men's Wear, Shoes & Watches">
+<meta name="twitter:description" content="Find stylish men's clothing, footwear, and watches at LeTobxx Men's Place. Shop now for great deals and fast delivery!">
+<meta name="twitter:image" content="https://LeTobxx.com/path-to-your-banner-or-logo.jpg">
+
+<!-- Canonical Link -->
+<link rel="canonical" href="https://atobatelemarcus.com/">
+
+<!-- Favicon -->
+<link rel="icon" href="https://yourdomain.com/favicon.ico" type="image/x-icon">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  <!-- fonticon link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div>
+    <button class="menubtn" id="menubtn">
+     &#9776; 
+    </button>
+    </div>
+    <div class="Tobx">
+    <header> 
+    LeTobxx Men's place
+    </header>
+    </div>
+     <div class="cart-container">
+         <button class="top-icon" id="cart-button" onclick="toggleCart()">
+       <i class="fas fa-shopping-cart" id="icon"></i>
+             <span id="cart-count">0</span>
+     </button>
+
+  </div>
+  </div>
+  
+  <div class="tpbtn">
+          <button class="icon"><i class="fas fa-compass" id="icon"></i>browse all
+          </button>
+         <button class="icon" onclick="scrollToSection('shirt')">
+         <i class="fas fa-shirt" id="icon"></i>Shirt
+         </button>
+         <button class="icon" onclick="scrollToSection('trouser')"><i class="fas fa-feather" id="icon" ></i> 
+         trousers 
+         </button>
+        <button class="icon" onclick="scrollToSection('watch')">
+          <i class="fas fa-gem" id="icon"></i> 
+        Watch
+        </button>
+        <button class="icon" onclick="scrollToSection('shoes')">
+          <i class="fas fa-shoe-prints" id="icon"></i>
+        shoes
+        </button>
+        </div>
+          <!--side bar and contents -->
+ <div class="sidebar" id="sidebar">
+     <div>
+       <button class="closebtn" id="closebtn">
+         &times;
+      </button>
+     </div>
+   <div>
+      <br>
+      <a href=""> 
+      <ul onclick="scrollToSection('shirt')">SHIRT</ul>
+      </a>
+      <a href="">
+        <ul onclick="scrollToSection('trouser')">TROUSER</ul>
+      </a>
+      <a href="">
+        <ul>WATCH</ul>
+      </a>
+      <a href="">
+        <ul>SHOES</ul>
+      </a>
+   </div>
+  </div>
+  <!--shirt section-->
+  <section id="shirt" class="shirt">
+    <p>MEN'S SHIRT</p>
+    <!--shirtframe one-->
+    <div class="shirtframe" id="shirtframe">
+      <div class="slider" id="slider">
+        <img src="/pm_1745603528550_cmp.jpg" alt="phone">
+        <img src="/pm_1745603528448_cmp.jpg" alt="phone">
+      </div>
+    </div>
+      <span class="price">Jersey PRICE:$100</span>
+      <button class="addbtn" onclick="add('jersey',100)">ADD TO CART</button>
+     
+      <!--shirtframe two-->
+       <div class="shirtframe" id="shirtframe2">
+      <div class="slider" id="slider2">
+        <img src="/pm_1745603528331_cmp.jpg" alt="phone">
+        <img src="/pm_1745603528189_cmp.jpg" alt="phone">
+      </div>
+    </div>
+      <span class="price">Quality polo PRICE:$100</span>
+      <button class="addbtn" onclick="add('polo',100)">ADD TO CART</button> 
+      <!--third frame-->
+      <div class="shirtframe" id="shirtframe3">
+      <div class="slider" id="slider3">
+        <img src="/pm_1745603527319_cmp.jpg" alt="phone">
+        <img src="/pm_1745603529667_cmp.jpg" alt="phone">
+        <img src="/pm_1745603529539_cmp.jpg" alt="phone">
+      </div>
+    </div>
+      <span class="price">Unique polo <br> Jean jacket PRICE:$100</span>
+      <button class="addbtn" onclick="add('unique polo',100)">ADD TO CART</button>
+
+  </section>
+  <!---trouser-->
+  <section class="trouser" id="trouser">
+    <p class="trouser">
+      MEN'S TROUSERS
+    </p>
+    <!--trouser frame one-->
+        <div class="trouserframe" id="trouserframe">
+      <div class="Tslider" id="Tslider">
+        <img src="/pm_1745603525206_cmp.jpg" alt="phone">
+        <img src="/pm_1745603525080_cmp.jpg" alt="phone">
+      </div>
+    </div>
+      <span class="price">Denim black<br>PRICE:$100</span>
+      <button class="addbtn" onclick="add('Denim black',100)">ADD TO CART</button>
+
+      <!--trouser frame 2-->
+      <div class="trouserframe2" id="trouserframe2">
+      <div class="Tslider2" id="Tslider2">
+        <img src="/pm_1745603525302_cmp.jpg" alt="phone">
+        <img src="/pm_1745603525302_cmp.jpg" alt="phone">
+        <img src="/pm_1745603525912_cmp.jpg" alt="phone">
+        <img src="/pm_1745603526196_cmp.jpg" alt="phone">
+      </div>
+    </div>
+      <span class="price">Quality Jean<br>PRICE:$100</span>
+      <button class="addbtn" onclick="add('Jean',100)">ADD TO CART</button>
+    
+  <!--trouser frame 3-->
+  <div class="trouserframe3" id="trouserframe3">
+      <div class="Tslider3" id="Tslider3">
+        <img src="/pm_1745603526634_cmp.jpg" alt="phone">
+        <img src="/pm_1745603526535_cmp.jpg" alt="phone">
+        <img src="/pm_1745603526322_cmp.jpg" alt="phone">
+        <img src="/pm_1745603526439_cmp.jpg" alt="phone">
+      </div>
+    </div>
+      <span class="price">Super joggers<br>PRICE:$100</span>
+      <button class="addbtn" onclick="add('super joggers',100)">ADD TO CART</button>
+
+      <!--trouser frame 4-->
+        <div class="trouserframe4" id="trouserframe4">
+      <div class="Tslider4" id="Tslider4">
+        <img src="/pm_1745603525816_cmp.jpg" alt="phone">
+        <img src="/pm_1745603525690_cmp.jpg" alt="phone">
+      </div>
+    </div>
+      <span class="price">Plain Brown<br>PRICE:$100</span>
+      <button class="addbtn" onclick="add('Denim brown',100)">ADD TO CART</button>
+
+       </section>
+       
+       
+   <!--Watch-->
+   <section id="watch" class="watch">
+    <p>WRIST WATCH</p>
+        <!--watch frame one-->
+        <div class="watchframe" id="watchframe">
+      <div class="Wslider" id="Wslider">
+        <img src="/pm_1745603527550_cmp.jpg" alt="phone">
+        <img src="/pm_1745603527453_cmp.jpg" alt="phone">
+      </div>
+    </div>
+      <span class="price">Silky Wrist<br>PRICE:$100</span>
+      <button class="addbtn" onclick="add('silky wrist',100)">ADD TO CART</button>
+    
+      <!--watch frame2-->
+      <div class="watchframe2" id="watchframe2">
+      <div class="Wslider2" id="Wslider2">
+        <img src="/pm_1745603527864_cmp.jpg" alt="phone">
+        <img src="/pm_1745603527864_cmp.jpg" alt="phone">
+        <img src="/pm_1745603527953_cmp.jpg" alt="phone">
+        <img src="/pm_1745603528076_cmp.jpg" alt="phone">
+     </div>
+    </div>
+      <span class="price"> Original quartz </span><br>PRICE:$100</span>
+      <button class="addbtn" onclick="add('original quartz',100)">ADD TO CART</button>
+      
+      
+     <!-- shoe section -->
+     <section id="shoes" class="shoes">
+    <p>SHOES</p>
+        <!--shoe frame one-->
+            <div class="shoesframe" id="shoesframe">
+      <div class="Sslider" id="Sslider">
+        <img src="/pm_1745603529096_cmp.jpg" alt="phone">
+        <img src="/pm_1745603528998_cmp.jpg" alt="phone">
+        <img src="/pm_1745603528867_cmp.jpg" alt="phone">
+        <img src="/pm_1745603528725_cmp.jpg" alt="phone">
+      </div>
+    </div>
+      <span class="price">Happy feet<br>PRICE:$100</span>
+      <button class="addbtn" onclick="add('black shoe',100)">ADD TO CART</button>
+    
+         </section> 
+         
+         <!--cart drawer-->
+       <div id="overlay" onclick="toggleCart()"></div>
+
+  <div id="cart-drawer">
+    <div class="cart-header">
+      <h2>Your Cart</h2>
+      <button class="close-btn" onclick="toggleCart()">X</button>
+    </div>
+
+    <div id="cart-items"></div>
+
+    <div id="cart-footer">
+      <button onclick="clearCart()">Clear Cart</button>
+      <button id="pay-btn" onclick="payNow()">Pay Now</button>
+      <p>Total: $<span id="total-amount">0</span></p>
+    </div>
+  </div>
+
+     </button>
+
+    <footer class="foot">
+      <p>
+        ©2025 LeTobxx Men's Place, We sell quality products and offer good delivery services
+        </p>
+        <p>
+          ADDRESS: House of assembly road, umuahia,Abia state
+          <br>
+          <br>
+        CONTACT: 07044592369
+        </p>
+        
+       <p>SOCIALS: <a href="https://www.linkedin.com/in/atobatele-marcus-19947121b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" width="30">
+         </a></p>
+    
+    </footer>
+      
+  <script src="main.js"></script>
+</body>
+</html>
